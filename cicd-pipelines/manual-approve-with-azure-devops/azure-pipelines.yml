@@ -22,7 +22,8 @@ pr:
     - examples/manual-approve-with-github-actions/
     - modules/databricks-department-clusters/README.md
 
-pool: 'Azure Pipelines'
+pool:
+  vmImage: 'ubuntu-latest'
 
 steps:
 
